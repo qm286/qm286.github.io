@@ -1,9 +1,9 @@
 name: Minh Tran
 tagline: Electrical and Electronic Engineer
-career-objective: This is a GitHub Pages template for academic portfolio websites. Fork <a href="https://github.com/academicportfolio/academicportfolio.github.io">this repository</a> to get started. This section will be replaced by your career objective. Read the README of the repository to learn about customizing the site.
+career-objective: I engineer embedded systems from hardware to low-level firmware, with hands-on experience in PCB design, industrial communication protocols (RS485, UART, SPI), digital and analog signal analysis, and register-level programming for direct control of hardware.  
 color-theme: red # red or blue
 avatar-filename: minh-tran-ava.jpg
-url: academicportfolio.github.io
+url: https://qm286.github.io/qm286.io/
 baseurl: /
 paginate: 5
 paginate_path: "/blog/page:num/"
