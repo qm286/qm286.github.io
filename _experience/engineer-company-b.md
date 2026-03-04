@@ -1,9 +1,9 @@
 ---
-title: Engineering Intern
-institute: LYDINC
-institute-url: https://www.lydinc.net/
-duration: 2023 - 2024
-excerpt: "I worked there as an engineering intern, where I do 3D CAD design and 3D printing on different filament like TPU, PETG, PLA. Also, I did involve in a Line-following-robot team, where I applied and tuned the PID parameter to optimized the robot movement, reducing 70% opertation duration."
+title: Research Assistant
+institute: Wireless Robotics and Embedded Systems Lab - WIRES
+institute-url: https://wires-ub.github.io/
+duration: August 2025 - February 2026
+excerpt: "I developed a low-level firmware on ESP32 to interact with BNO086x Inertia Measurement Unit (IMU) at register level;  I optimized the sensor data streaming by 200% (at 200Hz) while keeping three different sensors data synchronized. I also applied FreeRTOS and ít properties like priorities, along ưith dual-core on ESP32, to optimized the data streaming and plotting process"
 order: 2
-tags: [CAD Design, 3D Printing, PID Algorithm, Arduino]
+tags: [Low-level Programming, FreeRTOS, ESP-IDF IDE, ESP32, Signal Analyzing, Arduino, Documenting]
 ---
