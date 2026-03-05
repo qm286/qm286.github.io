@@ -1,5 +1,5 @@
 ---
 category: Simulation/EDA
-tags: [MATLAB Simulink, PSpice, Proteus, Intel Quartus Prime, Cadence Virtuoso]
+tags: [MATLAB Simulink, Proteus, Altium Designer, KiCAD, Fusion 360, SolidWorks, OnShape]
 order: 3
 ---
