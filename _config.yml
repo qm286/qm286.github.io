@@ -117,11 +117,11 @@ defaults:
 
 # Disqus Comment
 disqus:
-  shortname: academic-portfolio # Change with your own disqus shortname
+  shortname: qm286-portfolio # Change with your own disqus shortname
 
 # Contact Form
 formspree:
-  endpoint: https://formspree.io/f/xdorkgkv # Change with your own form's endpoint
+  endpoint: https://formspree.io/f/mpqyaggv # Change with your own form's endpoint
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
