@@ -66,22 +66,22 @@ collection_option:
     visibility: true
   publications: 
     label: Publications
-    visibility: true
+    visibility: false
   volunteerexperience: 
     label: Volunteer Experience
-    visibility: true
+    visibility: false
   certifications: 
     label: Certifications
-    visibility: true
+    visibility: false
   achievements: 
     label: Achievements
-    visibility: true
+    visibility: false
 
 navigation:
 - title: About
   url: /
-- title: Blog
-  url: /blog/
+# - title: Blog
+#   url: /blog/
 - title: Contact
   url: /contact
 
