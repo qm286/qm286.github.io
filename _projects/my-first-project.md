@@ -1,9 +1,9 @@
 ---
-title: Trip range estimator for electricity scooters
+title: Trip Range Estimator for Electric Scooters
 layout: project
 year: June 2025 - August 2025
 project-url: https://github.com/qm286/Decode-E-scooter-Battery
-excerpt: I built a device to estimate the trip range based on real-time data. I collected the speed directly from motor (through software-based filter with 99.9% accuracy). I also reverse-engineered the data protocol from battery mainboard (byte by byte) to get battery-related data. 
+excerpt: Developed a trip range estimation system for electric scooters by integrating sensing hardware, embedded firmware, and data communication. Worked with protocols such as RS485, UART, and BLE to collect, process, and transmit battery and motion data.
 project-image: 
 tags: [Low-level C Programming, Signal Analysis, Reverse-Engineering, Android OS, Bluetooth GATT, ESP32, Saleae Logic, Prototyping]
 order: 1
