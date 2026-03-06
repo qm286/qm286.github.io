@@ -5,7 +5,7 @@ year: June 2025 - August 2025
 project-url: https://github.com/qm286/Decode-E-scooter-Battery
 excerpt: I built a device to estimate the trip range based on real-time data. I collected the speed directly from motor (through software-based filter with 99.9% accuracy). I also reverse-engineered the data protocol from battery mainboard (byte by byte) to get battery-related data. 
 project-image: 
-tags: [Low-level C Programming, Signal Analysis, Reverse-Engineering, Android OS, Bluetooth GATT, ESP32]
+tags: [Low-level C Programming, Signal Analysis, Reverse-Engineering, Android OS, Bluetooth GATT, ESP32, Saleae Logic]
 comments: true
 ---
 
@@ -15,7 +15,7 @@ I built a device to estimate the trip range based on real-time data. This device
     - The RS485-TTL communcation module was in charge of communicating (in the RS485 protocol) between the MCU and the Battery Management System (BMS) circuit board.
 
 I collected the speed directly from motor (through software-based filter with 99.9% accuracy). 
-    - I analyzed them using the Logic Analyzer from Salae Logic. 
+    - I analyzed them using the Logic Analyzer from Saleae Logic. 
     - The signal was from Hall sensor, since the Hall-effect caused glitch noise every 50 nanoseconds, so I developed an algorithm that filtered out 100% of noise, leaving fresh digital signal streaming.
 
 I also reverse-engineered the data protocol from battery mainboard (byte by byte) to get battery-related data. 
