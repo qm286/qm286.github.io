@@ -1,8 +1,9 @@
 ---
 ---
-{% if site.color-theme == "blue" %}
+
+{% if site["color-theme"] == "blue" %}
 $link: #0099ff;
-{% elsif site.color-theme == "red" %}
+{% elsif site["color-theme"] == "red" %}
 $link: #862B0D;
 {% endif %}
 
