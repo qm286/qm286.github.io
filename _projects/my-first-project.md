@@ -1,5 +1,5 @@
 ---
-title: Trip Range Estimator for Electric Scooters
+title: Telemetry - Trip Range Estimator for Electric Scooters
 layout: project
 year: June 2025 - August 2025
 project-url: https://github.com/qm286/Decode-E-scooter-Battery
