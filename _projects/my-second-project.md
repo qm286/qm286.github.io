@@ -1,9 +1,9 @@
 ---
-title: High School Robotics Competition – Autonomous Turret Robot
+title: High School Robotics Projects - Local Competition
 layout: project
 year: May 2022 - August 2024
 project-url:
-excerpt: Developed a competition robot in high school by integrating embedded firmware, IMU sensing, motor control, PCB design, and mechanical prototyping. Worked with Arduino Mega, STM32, SPI, I2C, PWM generation, and system-level debugging.
+excerpt: Integrating embedded firmware on robots, IMU sensing, DC / brushless motor control, PCB design, and mechanical prototyping. Worked with Arduino Mega, STM32, SPI, I2C, PWM generation, electrical wiring, and system-level debugging.
 project-image:
 tags: [Embedded Firmware, Robotics, STM32, Arduino, IMU, PID Control, PCB Design, 3D Printing, Sensors, Prototyping]
 order: 2
