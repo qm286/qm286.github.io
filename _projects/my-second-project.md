@@ -6,7 +6,7 @@ project-url:
 excerpt: Integrating embedded firmware on robots, IMU sensing, DC / brushless motor control, PCB design, and mechanical prototyping. Worked with Arduino Mega, STM32, SPI, I2C, PWM generation, electrical wiring, and system-level debugging.
 project-image:
 tags: [Embedded Firmware, Robotics, STM32, Arduino, IMU, PID Control, PCB Design, 3D Printing, Sensors, Prototyping]
-order: 2
+order: 1
 comments: true
 ---
 

@@ -6,7 +6,7 @@ project-url: https://github.com/qm286/Decode-E-scooter-Battery
 excerpt: Developed a trip range estimation system for electric scooters by integrating sensing hardware, embedded firmware, and data communication. Worked with protocols such as RS485, UART, and BLE to collect, process, and transmit battery and motion data.
 project-image: 
 tags: [Low-level C Programming, Signal Analysis, Reverse-Engineering, Android OS, Bluetooth GATT, ESP32, Saleae Logic, Prototyping]
-order: 1
+order: 2
 comments: true
 ---
 
