@@ -4,9 +4,19 @@ layout: default
 
 <h2 class="ap-project-title-single">{{page.title}}</h2>
 <p class="ap-project-timestamp-single">{{page.year}}</p>
-<img class="ap-project-featured-single" src="{{page.project-image}}"/>
+
+{% if page.images %}
+<div class="ap-project-gallery">
+    {% for image in page.images %}
+    <figure class="ap-project-gallery-item">
+        <img src="{{image.src | relative_url}}" alt="{{image.caption}}"/>
+        {% if image.caption %}<figcaption class="ap-project-gallery-caption">{{image.caption}}</figcaption>{% endif %}
+    </figure>
+    {% endfor %}
+</div>
+{% endif %}
+
 {% if page.project-url %}
-<br>
 <p class="ap-project-url-single">URL: <a href="{{page.project-url}}" target="_blank">{{page.project-url}}</a></p>
 {% endif %}
 

@@ -4,7 +4,18 @@ layout: project
 year: May 2022 - August 2024
 project-url:
 excerpt: Integrating embedded firmware on robots, IMU sensing, DC / brushless motor control, PCB design, and mechanical prototyping. Worked with Arduino Mega, STM32, SPI, I2C, PWM generation, electrical wiring, and system-level debugging.
-project-image:
+project-image: assets/images/projects/highschool-robotics/thumb1.jpg
+thumbnails:
+  - assets/images/projects/highschool-robotics/thumb1.jpg
+  - assets/images/projects/highschool-robotics/thumb2.jpg
+  - assets/images/projects/highschool-robotics/thumb3.jpg
+images:
+  - src: assets/images/projects/highschool-robotics/detail-1.jpg
+  - src: assets/images/projects/highschool-robotics/detail-2.jpg
+  - src: assets/images/projects/highschool-robotics/detail-3.jpg
+  - src: assets/images/projects/highschool-robotics/detail-4.jpg
+  - src: assets/images/projects/highschool-robotics/detail-5.jpg
+  - src: assets/images/projects/highschool-robotics/detail-6.jpg
 tags: [Embedded Firmware, Robotics, STM32, Arduino, IMU, PID Control, PCB Design, 3D Printing, Sensors, Prototyping]
 order: 1
 comments: true

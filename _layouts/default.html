@@ -18,33 +18,37 @@
 
 <body>
     <div class="ap-container">
-        <img class="ap-avater" src={{"assets/images/" | append: site.avatar-filename | relative_url}}
-            alt="Avatar for {{site.name}}">
-        <h1 class="ap-title">{{site.name}}</h1>
-        <h3 class="ap-tagline">{{site.tagline}}</h3>
-        <div class="ap-social-header">
-            <ul>
-                {% if site.social['email']['visibility'] == true %}<li><a
-                        href="mailto:{{site.social['email']['mail']}}">Email</a></li>{% endif %}
-                {% if site.social['linkedin']['visibility'] == true %}<li><a
-                        href="https://linkedin.com/in/{{site.social['linkedin']['handle']}}"
-                        target="_blank">LinkedIn</a></li>{% endif %}
-                {% if site.social['github']['visibility'] == true %}<li><a
-                        href="https://github.com/{{site.social['github']['handle']}}" target="_blank">GitHub</a></li>{%
-                endif %}
-                {% if site.social['twitter']['visibility'] == true %}<li><a
-                        href="https://twitter.com/{{site.social['twitter']['handle']}}" target="_blank">Twitter</a></li>
-                {% endif %}
-            </ul>
+        <div class="ap-header">
+            <img class="ap-avater" src={{"assets/images/" | append: site.avatar-filename | relative_url}}
+                alt="Avatar for {{site.name}}">
+            <div class="ap-header-info">
+                <h1 class="ap-title">{{site.name}}</h1>
+                <h3 class="ap-tagline">{{site.tagline}}</h3>
+                <div class="ap-social-header">
+                    <ul>
+                        {% if site.social['email']['visibility'] == true %}<li><a
+                                href="mailto:{{site.social['email']['mail']}}">Email</a></li>{% endif %}
+                        {% if site.social['linkedin']['visibility'] == true %}<li><a
+                                href="https://linkedin.com/in/{{site.social['linkedin']['handle']}}"
+                                target="_blank">LinkedIn</a></li>{% endif %}
+                        {% if site.social['github']['visibility'] == true %}<li><a
+                                href="https://github.com/{{site.social['github']['handle']}}" target="_blank">GitHub</a></li>{%
+                        endif %}
+                        {% if site.social['twitter']['visibility'] == true %}<li><a
+                                href="https://twitter.com/{{site.social['twitter']['handle']}}" target="_blank">Twitter</a></li>
+                        {% endif %}
+                    </ul>
+                </div>
+                <nav class="ap-nav">
+                    <ul>
+                        {% for item in site.navigation %}
+                        <li><a href={{item.url | relative_url}}
+                                class="{% if item.url == page.url %}ap-active{% endif %}">{{item.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="ap-nav">
-            <ul>
-                {% for item in site.navigation %}
-                <li><a href={{item.url | relative_url}}
-                        class="{% if item.url == page.url %}ap-active{% endif %}">{{item.title}}</a></li>
-                {% endfor %}
-            </ul>
-        </nav>
 
         <div class="ap-line"></div>
 

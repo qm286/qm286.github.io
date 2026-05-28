@@ -14,12 +14,19 @@ layout: default
     <div class="ap-experience">
         <p class="ap-experience-title">{{experience.title}}, <a href="{{experience.institute-url}}">{{experience.institute}}</a></p>
         <p class="ap-experience-year">{{experience.duration}}</p>
-        <p class="ap-experience-excerpt">{{experience.excerpt}}</p>
+        <div class="ap-experience-excerpt">{{experience.excerpt | markdownify}}</div>
         <p class="ap-experience-tags">
             {% for tag in experience.tags %}
             <span class="ap-experience-chip">{{tag}}</span>
             {% endfor %}
         </p>
+        {% if experience.images %}
+        <div class="ap-experience-thumbnails{% if experience.images.size == 1 %} ap-experience-thumbnails--single{% endif %}">
+            {% for img in experience.images %}
+            <img src="{{img}}" alt=""/>
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
     {% endfor %}
 </div>
@@ -67,6 +74,13 @@ layout: default
     <p class="ap-subtitle">{{site.collection_option['projects']['label']}}</p>
     {% for project in site.projects reversed %}
     <div class="ap-project">
+        {% if project.thumbnails %}
+        <div class="ap-project-thumbnails">
+            {% for thumb in project.thumbnails %}
+            <a href="{{project.url}}"><img class="ap-project-thumbnail" src="{{thumb | relative_url}}" alt="{{project.title}}"/></a>
+            {% endfor %}
+        </div>
+        {% endif %}
         <a class="ap-project-title" href="{{project.url}}">{{project.title}}</a>
         <p class="ap-project-year">{{project.year}}</p>
         <p class="ap-project-excerpt">{{project.excerpt}}</p>
@@ -105,7 +119,7 @@ layout: default
     <div class="ap-experience">
         <p class="ap-experience-title">{{experience.title}}, <a href="{{experience.institute-url}}">{{experience.institute}}</a></p>
         <p class="ap-experience-year">{{experience.duration}}</p>
-        <p class="ap-experience-excerpt">{{experience.excerpt}}</p>
+        <div class="ap-experience-excerpt">{{experience.excerpt | markdownify}}</div>
     </div>
     {% endfor %}
 </div>
