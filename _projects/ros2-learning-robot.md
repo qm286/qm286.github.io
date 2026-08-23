@@ -10,8 +10,9 @@ thumbnails:
   - assets/images/projects/ros2-learning-robot/thumb2.jpg
   - assets/images/projects/ros2-learning-robot/thumb3.jpg
 images:
-  - src: assets/images/projects/ros2-learning-robot/placeholder.jpg
-    caption: Photo coming soon — replace with a real robot/hardware shot
+  - src: assets/images/projects/ros2-learning-robot/thumb1.jpg
+  - src: assets/images/projects/ros2-learning-robot/thumb2.jpg
+  - src: assets/images/projects/ros2-learning-robot/thumb3.jpg
 tags: [ROS2, Python, Raspberry Pi, IMU, Wheel Odometry, PID Control, I2C, GPIO, Differential Drive, Sensor Fusion]
 order: 3
 comments: true
